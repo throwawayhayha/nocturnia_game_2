@@ -15,10 +15,25 @@ This is a short story from another world. A story of a trial that shook the enti
 
 @start
 new-page: true
-
-Welcome!
+go-to: opening
 
 @library
+
+Herein contains relevant information about the Empire of Nocturnia in this era.
+
+- @nocturnia: Kingdom of Nocturnia
+- @royal_fam: The Royal Family
+- @nobility: Nobility
+- @imperial_forum: Imperial Forum of Nocturnia
+
+@nocturnia
+
+@royal_fam
+
+@nobility
+
+@imperial_forum
+
 
 @credits
 
