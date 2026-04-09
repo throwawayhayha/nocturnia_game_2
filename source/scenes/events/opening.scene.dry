@@ -51,8 +51,12 @@ Even after interacting so many times, she remains in your eyes as nothing short 
 title: And then...
 max-visits: 1
 view-if: intro_myself_seen = 1 and intro_job_seen = 1 and intro_darlyne_seen = 1
-go-to: newspaper
 
 Before you realized it, the sun was already well and above the horizon, and the sky has already turned a rather bright blue.
 
 After everything was nicely put into the bag, you opened the door, preparing to head out towards the palace.
+
+- @intro_news_2: It's time to head out.
+
+@intro_news_2
+go-to:newspaper
