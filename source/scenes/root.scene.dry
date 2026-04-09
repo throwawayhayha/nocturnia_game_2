@@ -31,20 +31,17 @@ Herein contains relevant information about the Empire of Nocturnia in this era.
 - @menu_start: Return
 
 @nocturnia
-
-- @root.library
+go-to: library
 
 @royal_fam
-
-- @root.library
+go-to: library
 
 @nobility
-
-- @root.library
+go-to: library
 
 @imperial_forum
+go-to: library
 
-- @root.library
 
 @credits
 
