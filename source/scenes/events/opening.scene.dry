@@ -31,7 +31,6 @@ go-to: option_intro; newspaper if myself = "seen" and darlyne = "seen"
 
 @darlyne
 max-visits: 1
-on-arrival: Q.darlyne += 1
 go-to: option_intro; newspaper if job = "seen" and myself = "seen"
 
 
