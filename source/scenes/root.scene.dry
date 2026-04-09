@@ -1,5 +1,6 @@
 title: Root Scene
 new-page: true
+go-to: menu_start
 
 = Nocturnia: Trial of the Century
 
@@ -8,6 +9,8 @@ new-page: true
  - *a French officer before the Storming of the Bastille*, 1789
 
 This is a short story from another world. A story of a trial that shook the entire continent, from the very eyes of those closest to it.
+
+@menu_start
 
 - @start: Start
 - @library: Library
@@ -25,7 +28,7 @@ Herein contains relevant information about the Empire of Nocturnia in this era.
 - @royal_fam: The Royal Family
 - @nobility: Nobility
 - @imperial_forum: Imperial Forum of Nocturnia
-- @menu: Return
+- @menu_start: Return
 
 @nocturnia
 
