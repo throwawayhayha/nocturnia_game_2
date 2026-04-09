@@ -1,0 +1,25 @@
+title: Time to go to work.
+subtitle: Those rumours can wait after the break.
+new-page: true
+tags: events
+
+- @first_meet_1
+
+@first_meet_1
+title: Another day, another meeting
+subtitle: Just like any other workday.
+
+The sun is already shining brightly in the sky. You decide to fold the newspaper into the bag and hurry towards the Royal Palace. 
+
+Those rumours can wait until the next break, after all... right?
+
+- @newspaper_headline: And the headline reads...
+
+@newspaper_headline
+audio: music\dadar_intro.mp3
+
+= REVEALED: THE CRIMES OF NOCTURNIA’S PRINCESS!
+
+- @newspaper_what: ...What?
+
+@newspaper_what
