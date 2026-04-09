@@ -23,21 +23,27 @@ max-visits: 1
 on-arrival: intro_myself_seen = 1
 go-to: option_intro
 
+You are ---------, a youthful genius who was recently assigned to the prestigious post of Princess Nightbloom's assistant.
 
+You scored one of the highest final exam scores for both [Natural Alchemy] and [Law] in Nocturnia's history, and you held a very high pride in becoming the one to achieve it.
 
 @job
 max-visits: 1
 on-arrival: intro_job_seen = 1
 go-to: option_intro
 
+Your job nowadays is to help Princess Darlyne across various things, though mostly it would either revolve around her chemical research or... really, anything that piqued her interests.
 
+As tiring as it might be sometimes, you can't help but be drawn into this job a little more with each passing day.
 
 @darlyne
 max-visits: 1
 on-arrival: intro_darlyne_seen = 1
 go-to: option_intro
 
+Princess Darlyne Nightbloom of Nocturnia is the sole daughter of the current King and Queen of Nocturnia. 
 
+In public, she is a very quiet lady, rarely conversing more than a few minutes before drawing herself back into solitude. However, when she is truly comfortable or immersed in something (as she often did with her research), her energy is truly a sight to behold.
 
 @intro_news
 title: And then...
