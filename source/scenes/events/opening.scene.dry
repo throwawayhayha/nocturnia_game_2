@@ -20,18 +20,21 @@ Checking the clock, you noticed that there was still quite some time left before
 
 @myself
 max-visits: 1
+go-to: option_intro
 
-- @option_intro
+
 
 @job
 max-visits: 1
+go-to: option_intro
 
-- @option_intro
+
 
 @darlyne
 max-visits: 1
+go-to: option_intro
 
-- @option_intro
+
 
 @newspaper
 title: And then...
