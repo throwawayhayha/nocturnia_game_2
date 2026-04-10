@@ -1,6 +1,11 @@
 title: Opening
 new-page: true
 tags: events
+go-to: option_intro_1
+
+@option_intro_1
+title: And another day begins anew.
+subtitle: Time to wake up!
 go-to: option_intro
 
 = An early morning
