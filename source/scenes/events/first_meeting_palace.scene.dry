@@ -1,5 +1,4 @@
-title: Time to go to work.
-subtitle: Those rumours can wait after the break.
+title: First time to the palace
 new-page: true
 tags: events
 
@@ -8,13 +7,31 @@ tags: events
 @first_meet_1
 title: Another day, another meeting
 subtitle: Just like any other workday.
+go-to: first_meeting_option
 
 You have finally arrived at the front gate of the palace. The guards, already familiar with your face by now, greeted with a polite bow as they open the gates for you.
 
 You politely nod back in reply as you walk past the gate, before quickly heading towards the princess' office.
 
-...Yes, as weird as it sounds, the princess has her own office, along with other miscellanous rooms, inside the Royal Palace. You remember in one of your private meetings with the head of the Alchemy Center about it, he casually explained how there were incredibly wide rooms dedicated to her chemical activities. *"Heh, that's just the kind of person the Princess is!"* he would jest afterwards.
+...Yes, as weird as it sounds, the princess has her own office, along with other miscellanous rooms, inside the Royal Palace. 
 
-#- @newspaper_headline: And the headline reads...
+You remembered in one of your private meetings with the head of the Alchemy Center about it, he casually explained how there were incredibly wide rooms dedicated to her chemical activities. *"Heh, that's just the kind of person the Princess is!"* he would jest afterwards.
 
-#@newspaper_headline
+In any case, it's already time to get to work. Or research, whichever you want to deal with first. In the end, you decide to...
+
+@first_meeting_option
+
+- @room_1: Head to the library first.
+- @room_2: Head to the brewing room first.
+- @room_main: Head to the Princess' office first.
+
+@room_1
+go-to: 1_library_room
+
+
+@room_2
+go-to: 1_brewing_room
+
+
+@room_main
+go-to: 1_princess_office

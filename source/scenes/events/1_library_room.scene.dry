@@ -1,0 +1,42 @@
+title: Library scene #1
+new-page: true
+tags: events
+
+The library is as quiet as it has always been whenever you've been in here, and this time, it's no different. Normally, Princess Darlyne would already be here, reading some chemical books that he had never even heard of before.
+
+Indeed, the Royal Palace's library boasted some, if not the vastest collections of articles, books, and just about any written stuff throughout the continent. 
+
+That is also one of the reasons why *any* position in the Royal Palace, especially one like his current role as the Princess' assistant, is a highly coveted one. After all, who wouldn't be envious of a role with such ease of access to one of the greatest libraries in the world?
+
+As you walk through the library, your eyes wander from shelves to shelves in search of some interesting books to study. Finally, you found a book titled...
+
+- @chemistry: Natural Alchemy of the World Ahead.
+- @law: Under the Nightbloom: Evolution of Law and Order in Nocturnia.
+- @relations: Circles and Squares: The Nobility's Written and Unwritten Norms
+
+@chemistry
+on-arrival: knowledge_alchemy += 3
+
+*Natural Alchemy of the World Ahead*. Released around six years ago, the book theorizes about the future of natural alchemy in the world with the advent of more modern technology. 
+
+Some parts of the books are infamously described as futuristic. *Too futuristic*, in fact. So much so that several well-known alchemists at the time called the book "*a complete work of fiction*".
+
+However, with major breakthroughs in various parts of the scientific community, the book has experienced a sort of revival in popularity.
+
+Without much hesitation, you grab the book from the shelf before heading towards the reading tables to read it.
+
+
+
+@law
+on-arrival: knowledge_law += 3
+
+*Under the Nightbloom: Evolution of Law and Order in Nocturnia*. Released around 11 years ago, the book explains the history of Nocturnia's evolving laws and regulations, including many of its more... interestingly controversial laws. 
+
+You still remember one of your lecturers describing the story that around a decade ago, not long after the book was released, the Kingdom moved swiftly to ban it due to its rather fiery writing. The book was then rewritten in a more formal style as a compromise, and the ban was lifted afterwards.
+
+Without much hesitation, you grab the book from the shelf before heading towards the reading tables to read it.
+
+
+
+@relations
+on-arrival: knowledge_politics += 3
