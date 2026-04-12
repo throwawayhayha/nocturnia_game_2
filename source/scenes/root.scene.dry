@@ -14,7 +14,7 @@ This is a short story from another world. The story of a trial that shook the en
 @menu_start
 
 - @start: Start
-- @lib: Library
+- @library: Library
 - @credits: Credits
 
 @start
@@ -22,39 +22,4 @@ new-page: true
 #on-arrival: relation_king = 5; relation_darlyne = 5; relation_nobility = 0; relation_judiciary = 2; relation_police = 1; relation_alchemy_center = 10; knowledge_law = 10; knowledge_alchemy = 15; knowledge_politics = 7
 go-to: opening
 
-
-@lib
-go-to: library
-
-
-@credits
-go-to: credits_menu
-
-Several works were used or referenced in the making of this game.
-
-@credits_menu
-
-- @image: Image sources
-- @music: Music sources
-- @menu_start: Back
-
-@image
-go-to: credits_menu
-
-**Images**
-
-*WhickerButler’s universe map*. WhickerStudio. https://www.whickeruniverse.com/portofolio/background-map.
-
-*\[LORE VIDEO\] STORY ABOUT THE PRINCESS OF NOCTURNIA*. Darlyne Nightbloom. https://www.youtube.com/watch?v=JyyYarc0z8I.
-
-(...)
-
-@music
-go-to: credits_menu
-
-**Music**
-
-Darlyne Nightbloom’s opening stream BGM.
-
-(...)
 

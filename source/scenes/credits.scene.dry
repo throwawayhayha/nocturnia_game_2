@@ -1,0 +1,31 @@
+Title: Credits
+new-page: true
+go-to: credits_menu
+
+Several works were used or referenced in the making of this game.
+
+@credits_menu
+
+- @image: Image sources
+- @music: Music sources
+- @menu_start: Back
+
+@image
+go-to: credits_menu
+
+**Images**
+
+*WhickerButler’s universe map*. WhickerStudio. https://www.whickeruniverse.com/portofolio/background-map.
+
+*\[LORE VIDEO\] STORY ABOUT THE PRINCESS OF NOCTURNIA*. Darlyne Nightbloom. https://www.youtube.com/watch?v=JyyYarc0z8I.
+
+(...)
+
+@music
+go-to: credits_menu
+
+**Music**
+
+Darlyne Nightbloom’s opening stream BGM.
+
+(...)
