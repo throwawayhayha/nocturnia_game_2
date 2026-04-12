@@ -15,7 +15,7 @@ As you walk through the library, your eyes wander from shelves to shelves in sea
 - @relations: Circles and Squares: Between the Nobility's Handshakes
 
 @chemistry
-on-arrival: knowledge_alchemy += 3
+on-arrival: knowledge_alchemy += 3; knowledge_politics =- 2; knowledge_law -= 2
 
 *Natural Alchemy of the World Ahead*. Released around six years ago, the book theorizes about the future of natural alchemy in the world with the advent of more modern technology. 
 
@@ -29,7 +29,7 @@ Without much hesitation, you grab the book from the shelf before heading towards
 
 
 @law
-on-arrival: knowledge_law += 3
+on-arrival: knowledge_law += 3; knowledge_alchemy -= 2; knowledge_politics -= 2
 
 *Under the Nightbloom: Evolution of Law and Order in Nocturnia*. Released around 11 years ago, the book explains the history of Nocturnia's evolving laws and regulations, including many of its more... interestingly controversial laws. 
 
@@ -40,7 +40,7 @@ Without much hesitation, you grab the book from the shelf before heading towards
 - @next_scene
 
 @relations
-on-arrival: knowledge_politics += 3
+on-arrival: knowledge_politics += 3; knowledge_law -= 2; knowledge_alchemy -= 2
 
 *Circles and Squares: Between the Nobility's Handshakes*. Released around three years ago, the book delves into detail the various written and unwritten conventions of the nobility in different parts of the continent, including Nocturnia.
 
@@ -54,14 +54,11 @@ Without much hesitation, you grab the book from the shelf before heading towards
 @next_scene
 title: And then...
 
-You don't know how long it has been since you started reading when out of nowhere, you feel a hand rests itself on your left shoulder.
+You don't know how long it has been since you started reading when, out of nowhere, you suddenly feel a hand rests itself on your left shoulder.
 
 - @next_scene_2: ...?
 
-
-
 @next_scene_2
-on-arrival: relation_darlyne -= 1
 
 "Wha-!" You hold back your surprised scream as you turn your head to the left.
 
@@ -69,10 +66,48 @@ It turns out, the person resting its hand on you is none other than Princess Dar
 
 - @next_scene_3: Princess... Darlyne?
 
-
-
 @next_scene_3
 
 "Yes, it's me," Princess Darlyne pulls her hand back as she crosses her arms. "Didn't I tell you to meet me in the office last week?"
 
 "Uh..." You let out a sheepish smile.
+
+- @answer_1: "My apologies, there's been too many things happening recently."
+- @answer_2: "I was intending to finish my researching part first."
+
+@answer_1
+on-arrival: relation_darlyne -= 2
+
+"...My apologies, Your Highness. There have been too many things happening recently," you say as you bow your head slightly in apology.
+
+Princess Darlyne swiftly shakes her head. "No, it's fine, ----. I was just wondering where you were a while back."
+
+As Princess Darlyne moves to sit on the seat next to you, you notice her carrying a small bag filled with several flasks.
+
+- @what_is_that: "What are those?"
+
+@answer_2
+on-arrival: relation_darlyne += 2
+
+"...My apologies, Your Highness, I was intending to finish my part of research first," you say as you bow your head slightly in apology. "I think some of the things I've written down will be useful in the future."
+
+"...I suppose that's fair." Princess Darlyne sighs as she shakes her head. "Tasks have been piling up over the last few days, after all."
+
+As Princess Darlyne moves to sit on the seat next to you, you notice her carrying a small bag filled with several flasks.
+
+- @what_is_that: "What are those?"
+
+@what_is_that
+
+"What are those?" You inquire with your eyes still staring at the empty flasks. Princess Darlyne is a bit confused at what you are referring to at first, but then seems to realize it from what your eyes are staring at.
+
+"Oh, this?" Princess Darlyne pointed to the bag she is carrying. "I'm planning to put these back in the cabinet since I don't think we'll need them today."
+
+"Oh...? That's... surprising."
+
+"Mm-hmm..."
+
+As the conversation settles into a temporary lull, you wonder if you should bring up the newspaper you read this morning.
+
+- @bring_up: Bring it up.
+- @not_bring_up: Avoid the subject. Postpone it until another day.

@@ -9,7 +9,7 @@ go-to: menu_start
 
  - *An unnamed officer before the Storming of the Bastille*, 1789
 
-This is a short story from another world. A story of a trial that shook the entire continent, from the very eyes of those closest to it.
+This is a short story from another world. The story of a trial that shook the entire continent, from the very eyes of one standing closest to it.
 
 @menu_start
 
@@ -29,3 +29,21 @@ go-to: library
 
 @credits
 
+Several works were used or referenced in the making of this game.
+
+- @image: Image
+- @music: Music
+
+@image
+
+WhickerButler’s universe map. WhickerStudio. https://www.whickeruniverse.com/portofolio/background-map.
+
+[LORE VIDEO] STORY ABOUT THE PRINCESS OF NOCTURNIA. Darlyne Nightbloom. https://www.youtube.com/watch?v=JyyYarc0z8I.
+
+(...)
+
+@music
+
+Darlyne Nightbloom’s opening stream BGM.
+
+(...)

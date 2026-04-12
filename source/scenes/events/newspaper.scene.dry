@@ -9,16 +9,16 @@ subtitle: You wonder what the headline has in store for the day.
 
 The morning newspaper arrives in front of the door right as you are about to head out. Curious, you decide to pick it up to read what the headline said.
 
-- @newspaper_headline: And the headline reads...
+- @headline: And the headline reads...
 
-@newspaper_headline
+@headline
 audio: music/dadar_intro.mp3 loop
 
 = REVEALED: THE CRIMES OF NOCTURNIA’S PRINCESS!
 
-- @newspaper_what: ...What?
+- @what: ...What?
 
-@newspaper_what
+@what
 
 "Crimes of... the princess?"
 
@@ -26,9 +26,9 @@ Your eyes remain glued to the headline written in large, bold letters on the top
 
 You decide to continue reading through the article on the next page.
 
-- @newspaper_accuse: ...Infidelity?
+- @accuse: ...Infidelity?
 
-@newspaper_accuse
+@accuse
 
 "...Infidelity?" You whisper under your breath, eyes now open wide.
 
@@ -38,9 +38,9 @@ Gears begin turning inside your head. *Of course*, you think, *how could someone
 
 Granted, rumours about the Royal Family are not so rare amongst the common populace. Several underground newspapers have even gotten notoriously popular by publishing those kind of things. However, nothing that you've read or heard before could compare to the one you read just now.
 
-- @newspaper_posthink: Perhaps this is nothing but made-up rumours?
+- @posthink: Perhaps this is nothing but made-up rumours?
 
-@newspaper_posthink
+@posthink
 
 You try to keep your thoughts positive, hoping that this would be nothing but a typical sensasionalist hearsay on a slow news day.
 
