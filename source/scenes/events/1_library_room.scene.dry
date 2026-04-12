@@ -15,7 +15,7 @@ As you walk through the library, your eyes wander from shelves to shelves in sea
 - @relations: Circles and Squares: Between the Nobility's Handshakes
 
 @chemistry
-on-arrival: knowledge_alchemy += 3; knowledge_politics =- 2; knowledge_law -= 2
+on-arrival: knowledge_alchemy += 3; knowledge_politics -= 2; knowledge_law -= 2
 
 *Natural Alchemy of the World Ahead*. Released around six years ago, the book theorizes about the future of natural alchemy in the world with the advent of more modern technology. 
 
