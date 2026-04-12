@@ -12,7 +12,7 @@ Herein contains relevant information about the Kingdom of Nocturnia in this era.
 - @lib_royal_fam: The Royal Family
 - @lib_nobility: Nobility
 - @lib_imperial_forum: Imperial Forum of Nocturnia
-- @root: Return
+- @root: Back
 
 @lib_nocturnia
 go-to: library_menu
