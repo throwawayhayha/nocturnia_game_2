@@ -25,6 +25,8 @@ However, with major breakthroughs in various parts of the scientific community, 
 
 Without much hesitation, you grab the book from the shelf before heading towards the reading tables to read it.
 
+- @next_scene
+
 
 @law
 on-arrival: knowledge_law += 3
@@ -35,6 +37,8 @@ You still remember one of your lecturers describing the story that around a deca
 
 Without much hesitation, you grab the book from the shelf before heading towards the reading tables to read it.
 
+- @next_scene
+
 @relations
 on-arrival: knowledge_politics += 3
 
@@ -44,30 +48,31 @@ Though the book does get a bit... *quirky*, at times, it is still considered one
 
 Without much hesitation, you grab the book from the shelf before heading towards the reading tables to read it.
 
-#- @next_scene
-
-#@next_scene
-#new-page: true
-
-#You don't know how long it has been since you started reading when out of nowhere, you feel a hand rests itself on your left shoulder.
-
-#- @next_scene_2: ...?
+- @next_scene
 
 
+@next_scene
+new-page: true
 
-#@next_scene_2
-#on-arrival: relation_darlyne -= 1
+You don't know how long it has been since you started reading when out of nowhere, you feel a hand rests itself on your left shoulder.
 
-#"Wha-!" You hold back your surprised scream as you turn your head to the left.
-
-#It turns out, the person resting its hand on you is none other than Princess Darlyne herself.
-
-#- @next_scene_3: Princess... Darlyne?
+- @next_scene_2: ...?
 
 
 
-#@next_scene_3
+@next_scene_2
+on-arrival: relation_darlyne -= 1
 
-#"Yes, it's me," Princess Darlyne pulls her hand back as she crosses her arms. "Didn't I tell you to meet me in the office last week?"
+"Wha-!" You hold back your surprised scream as you turn your head to the left.
 
-#"Uh..." You let out a sheepish smile.
+It turns out, the person resting its hand on you is none other than Princess Darlyne herself.
+
+- @next_scene_3: Princess... Darlyne?
+
+
+
+@next_scene_3
+
+"Yes, it's me," Princess Darlyne pulls her hand back as she crosses her arms. "Didn't I tell you to meet me in the office last week?"
+
+"Uh..." You let out a sheepish smile.
