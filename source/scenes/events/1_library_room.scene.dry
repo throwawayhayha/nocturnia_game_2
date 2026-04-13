@@ -98,6 +98,7 @@ As Princess Darlyne moves to sit on the seat next to you, you notice her carryin
 - @what_is_that: "What are those?"
 
 @what_is_that
+on-arrival: brought_up = 0;
 
 "What are those?" You inquire with your eyes still staring at the empty flasks. Princess Darlyne is a bit confused at what you are referring to at first, but then seems to realize it from what your eyes are staring at.
 
@@ -113,6 +114,7 @@ As the conversation settles into a temporary lull, you wonder if you should brin
 - @not_bring_up: Avoid the subject. Postpone it until another day.
 
 @bring_up
+on-arrival: brought_up += 1;
 
 Inwardly, you take a deep breath. 
 
@@ -122,5 +124,38 @@ The princess, still counting the flasks in her bag before, immediately stops as 
 
 "Have you heard any worrying news recently?" You ask, trying to sound as nonchalant as possible. Inwardly, you hope that she has at least had an idea of the news so you don't have to be the first to tell her about it.
 
+Princess Darlyne tilted her head. "Worrying news? Hmm... Not really, at least not since the threat from that chaos a while back."
+
+"..."
+
+You take another deep breath.
+
+As you open the bag to pull out the newspaper from this morning, you reply with a cautious voice.
+
+- @apologize: "Princess, I apologize in advance, but..."
+
+@apologize
+
+"Princess, I apologize in advance, but... you've been accused of committing another heinous crime." 
+
+Princess Darlyne's eyes immediately goes wide. Her gaze slowly trails from your eyes down to the newspaper as you hand it over to her. "I saw it in this newspaper's headline. I hope this is nothing but some sensationalist nonsense, but..."
+
+Her eyes carefully read through the article, furiously flipping the pages with an intensity you have almost never seen before.
+
+After what feels like an eternity of her flipping back and forth between pages with her eyes scanning up and down over and over, she finally hands the newspaper back to you.
+
+Her eyes still hold the same wide-eyed, horrified expression from before. Actually, it's even worse now. She almost seems to be on the verge of tears. You don't exactly know what to do in this situation, but before you could do anything, Princess Darlyne manages to speak first.
+
+"That... That's not true, is it?" She asks, almost in a pleading fashion. "I'm not one to commit infidelity. Never. Never!"
+
+"Yes, Your Highness, but-"
+
+"Never!" Princess Darlyne furiously shouts as she aggressively stands up from her seat.
+
+You could only remain silent in your seat, waiting for her to calm down before anything else.
+
+- @what_next: What awaits, then?
+
+@what_next
 
 @not_bring_up

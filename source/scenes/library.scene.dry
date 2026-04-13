@@ -11,7 +11,8 @@ Herein contains relevant information about the Kingdom of Nocturnia in this era.
 - @lib_nocturnia: Kingdom of Nocturnia
 - @lib_royal_fam: The Royal Family
 - @lib_nobility: Nobility
-- @lib_imperial_forum: Imperial Forum of Nocturnia
+- @lib_imperial_forum: Imperial Forum
+- @judiciary: Supreme Court
 - @root: Back
 
 @lib_nocturnia
@@ -41,6 +42,13 @@ Their loyalty towards the Royal Family have subtly been divided recently after a
 @lib_imperial_forum
 go-to: library_menu
 
-**Imperial Forum of Nocturnia**
+**Imperial Forum**
 
-Equivalent to a parliament, this is where members meet to debate laws and regulations in the Kingdom of Nocturnia. Although members of this forum consist of representatives from various parts of society (including nobles, merchants, and fishermen), the nobility would practically dominate the discussion, while representatives from the commoners would be inclined to side with their respective villages’ ruling nobility. However, they are not a truly powerful independent body, as their decisions can be overruled with a veto from the King.
+Equivalent to a parliament, the Imperial Forum is where members meet to debate laws and regulations in the Kingdom of Nocturnia. Members of this forum consist of noble families and selected representatives from each region under the nobility. However, they are not a truly powerful independent body, as their decisions can be overruled with a veto from the King.
+
+@judiciary
+go-to: library_menu
+
+**Supreme Court**
+
+The Supreme Court is the highest existing court in the Kingdom of Nocturnia. This court handles cases that are highly controversial or involving high-profile individuals. The head of this court is often the most senior and experienced judge in the Kingdom, and their decision would be considered final and could not be appealed afterwards.
