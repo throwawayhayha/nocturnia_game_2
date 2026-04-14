@@ -111,7 +111,7 @@ on-arrival: brought_up = 0;
 As the conversation settles into a temporary lull, you wonder if you should bring up the newspaper you read this morning.
 
 - @bring_up: Bring it up.
-- @not_bring_up: Avoid the subject. Postpone it until another day.
+- @not_bring_up: Avoid the subject.
 
 @bring_up
 on-arrival: brought_up += 1;
@@ -138,7 +138,9 @@ As you open the bag to pull out the newspaper from this morning, you reply with 
 
 "Princess, I apologize in advance, but... you've been accused of being complicit in cases of infidelity in this kingdom." 
 
-Princess Darlyne's eyes immediately goes wide. Her gaze slowly trails from your eyes down to the newspaper as you hand it over to her. "I saw it in this newspaper's headline. I hope this is nothing but some sensationalist nonsense, but..."
+Princess Darlyne's eyes immediately goes wide. 
+
+Her gaze slowly trails from your eyes down to the newspaper as you hand it over to her. "I saw it in this newspaper's headline. I hope this is nothing but some sensationalist nonsense, but..."
 
 Her eyes carefully read through the article, furiously flipping the pages with an intensity you have almost never seen before.
 
@@ -160,12 +162,37 @@ You decide to remain silent in your seat for now, waiting for her to come back t
 
 As much as you want to assure her by saying *No, it's nothing but an empty rumour*, you know that this matter is completely out of your hands.
 
-The next few minutes is spent in near-silence as Princess Darlyne tries to calm herself down by taking several deep breaths, while you patiently wait in silence until her anger subsides.
+The next few minutes is spent in near-silence as Princess Darlyne tries to calm herself down with several consecutive deep breaths. You patiently wait in silence until her anger subsides.
 
+"...I'm sorry you had to witness that," Princess Darlyne apologizes with a raspy voice as she wipes her watery eyes. "I thought the chaos from last time has subsided, but..."
 
+- @its_fine: "Don't worry, I will always help you."
+- @hope: "I hope nothing big happens."
 
-- @what_next: What awaits, then?
+@its_fine
+on-arrival: relation_darlyne += 3
 
-@what_next
+"Don't worry, if anything happens, I'll always help you," you confidently reply with a grin on your face.
+
+Princess Darlyne chuckles, and inwardly, you feel an immense sense of relief washing over you. She is not that weak of a princess, after all. 
+
+"Pfft, thank you, my dear assistant," Princess Darlyne cheekily replies, and you notice that tears no longer falling from her eyes. "I knew I can count on you."
+
+You give a nod, this time with a more sincere smile. "You're always welcome, Your Highness."
+
+Princess Darlyne replies with a silent nod, visibly pleased with the answer. 
+
+"Now, come on, help me put these flasks back in there." She stands up from her seat with several flasks in hand as she motions you to follow her.
+
+You sigh inwardly. Time for another errand session.
+
+- @next_file: Let's get back to work.
+
+@hope
 
 @not_bring_up
+
+
+
+@next_file
+go-to: end_of_day_1
