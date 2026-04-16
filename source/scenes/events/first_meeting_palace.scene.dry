@@ -7,7 +7,7 @@ tags: events
 @first_meet_1
 title: Another day, another meeting
 subtitle: Just like any other workday.
-go-to: first_meeting_option
+go-to: option
 
 You have finally arrived at the front gate of the palace. The guards, already familiar with your face by now, greeted with a polite bow as they open the gates for you.
 
@@ -19,7 +19,7 @@ You remembered in one of your private meetings with the head of the Alchemy Cent
 
 In any case, it's already time to get to work. Or research, whichever you want to deal with first. In the end, you decide to...
 
-@first_meeting_option
+@option
 
 - @room_1: Head to the library first.
 - @room_2: Head to the brewing room first.

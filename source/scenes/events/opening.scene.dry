@@ -2,9 +2,9 @@ title: Opening
 new-page: true
 tags: events
 
-- @option_intro_1: And another day begins anew.
+- @intro_1: And another day begins anew.
 
-@option_intro_1
+@intro_1
 subtitle: Time to wake up!
 go-to: option_intro
 
@@ -14,13 +14,13 @@ You wake up rather early in the morning as the sun is yet to be visible above th
 
 You feel pleasantly surprised. It has been quite a while since you've managed to wake up this early, after all.
 
-Checking the clock, you notice that there is still quite some time left before you have to go to the Royal Palace. As you prepare for the day, your mind begins wandering about...
+Taking a glance at the clock, you notice that there is still quite some time left before you have to go to the Royal Palace. As you prepare for the day, your mind begins wandering about...
 
 @option_intro
 
-- @myself: Yourself
-- @job: Your assigned tasks
-- @darlyne: The princess herself
+- @myself: Yourself.
+- @job: Your assigned tasks.
+- @darlyne: The princess herself.
 - @intro_news
 
 @myself
@@ -63,7 +63,7 @@ Before you realize it, the sun is already well and above the horizon, and the sk
 
 You quickly finish up your preparation before heading towards the door. Everything is nicely put into the bag, and you are now ready to go.
 
-- @intro_news_2: It's time to head out.
+- @next_file: It's time to head out.
 
-@intro_news_2
+@next_file
 go-to:newspaper

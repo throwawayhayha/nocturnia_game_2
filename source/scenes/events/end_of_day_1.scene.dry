@@ -2,4 +2,26 @@ title: End of Day 1
 new-page: true
 tags: events
 
-T
+- @option_intro_1: Another day comes to an end...
+
+@option_intro_1
+subtitle: ...and another one begins anew.
+go-to: option_intro
+
+= Another early morning
+
+You wake up rather early in the morning once again as the sun is yet to be visible above the horizon. 
+
+That makes it two-in-a-row, then. A new record, huh?
+
+Taking a glance at the clock, you notice that there is still quite some time left before you have to go to the Royal Palace. As you prepare for the day, your mind begins wandering about...
+
+- @the_news: The news.
+
+@the_news
+
+...Yeah. The headline-grabbing news that appeared just yesterday morning.
+
+It's neither the most insane thing you've heard in your entire life, nor is it the most far-fetched. In fact, that is partially why the news had been so shocking to him.
+
+How realistic the news is
