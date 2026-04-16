@@ -80,7 +80,7 @@ h1 + p {
   text-indent: 0;
 }
 h1 + p:first-line {
-  font-weight: bold;
+  font-weight: normal; 
 }
 h1 + p:first-letter {
   position: relative;
