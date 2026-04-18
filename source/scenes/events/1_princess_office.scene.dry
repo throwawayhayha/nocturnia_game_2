@@ -16,11 +16,11 @@ As you lift your head, you notice that her desk is still... a bit messy, to say 
 
 Even though it's something that you have seen quite often since you've worked here, you still couldn't help but be surprised at how much of a workaholic the princess is.
 
-- @desk_messy: The desk is as messy as usual, huh?
-- @why_right: Why the right time?
+- @desk_messy: "The desk is as messy as usual, huh?"
+- @why_right: "Why the right time?"
 
 @desk_messy
-on-arrival: relation_darlyne -= 1
+on-arrival: relation_darlyne -= 2
 
 "...The desk is as messy as usual, huh?" You respond with a cheeky remark. "I wonder what you've been working on, Your Highness."
 
