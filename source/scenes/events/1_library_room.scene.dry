@@ -189,7 +189,7 @@ You sigh inwardly as you pick up the rest of the flasks. Time for another errand
 - @next_file: Let's get back to work.
 
 @hope
-on-arrival: relation_darlyne += 1
+on-arrival: relation_darlyne -= 1
 
 "It's fine, we can hope that nothing big happens," you reply with a reassuring grin on your face. "Nothing ever happens anyway."
 
