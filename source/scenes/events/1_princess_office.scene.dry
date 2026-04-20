@@ -2,19 +2,21 @@ title: Princess' office scene #1
 new-page: true
 tags: events
 
+## Not yet finished, might need a bit more interaction
+
 It does not take long for you to reach the princess' office. It isn't that far from the main gate, after all, and you have been working here long enough to memorize many of the routes inside the Royal Palace.
 
-Standing in front of the office, you give a light knock towards the door. Normally, the princess would be inside early in the morning, before heading towards either the library or the alchemy chamber.
+Standing in front of the office, you give a light knock towards the door. Normally, the princess would be inside early in the morning, before she heads towards either the library or the alchemy chamber.
 
 Just moments later, you can hear Princess Darlyne shouting from the inside. "Come in!"
 
-You open the door slowly, bowing your head as you greet her. "Good morning, Your Highness."
+You open the door slowly, bowing your head as you enter the office to greet her. "Good morning, Your Highness."
 
 Princess Darlyne smiles. "Morning, ----. You came in at the right time!"
 
 As you lift your head, you notice that her desk is still... a bit messy, to say the least. Several half-empty flasks are put on the corner of the desks, while several stacks of papers are left on the opposite side from them.
 
-Even though it's something that you have seen quite often since you've worked here, you still couldn't help but be surprised at how much of a workaholic the princess is.
+Even though it's something that you have seen quite often since you've worked here, you still couldn't help but be surprised at how much of a workaholic the princess has been.
 
 - @desk_messy: "The desk is as messy as usual, huh?"
 - @why_right: "Why the right time?"
@@ -28,18 +30,15 @@ on-arrival: relation_darlyne -= 2
 
 "Oh, another progress?"
 
-"Yep. The color of the potion is finally turning into something I'm happy with!" she responds with excitement as she picks up one of the flasks filled with a ???-colored liquid. "Here, I spent a good part of this morning fixing this before you came in, and it's finally done!"
+"Yep. The color of the potion is finally turning into something I'm happy with!" she responds with excitement as she picks up one of the flasks filled with a pink-colored liquid. "Here, I spent a good part of this morning fixing this before you came in, and it's finally done!"
 
 "Wow..."
 
-It's impossible for you to not be amazed by that. After all, it was not that long ago when she confided to you about how it felt like her research had hit an insurmountable wall. And now, in the past few days, her progress bar is ticking up again, all by herself.
+You don't really know what to say except for an amazed remark. It's hard for you to not be in awe by that. After all, it wasn't that long ago when she confided to you about how it felt like her research had hit an insurmountable wall. And now, in the past few days, her progress bar is ticking up again, all by herself.
 
 She really, *really* is a prodigy in a league of her own.
 
-The conversation eventually settles into a temporary lull as Princess Darlyne briefly focuses her attention back onto the potion. While the topic of the conversation hasn't changed yet, you wonder if you should bring up the newspaper you read this morning.
-
-- @bring_up: Bring it up.
-- @not_bring_up: Avoid the subject.
+- @next_research: "So, what is the next step?"
 
 @why_right
 on-arrival: relation_darlyne += 2
@@ -50,15 +49,31 @@ Princess Darlyne's smile grows even wider. "Well, I'm happy to say, another prog
 
 "Oh, wow, really?"
 
-"Yep. The color of the potion is finally turning into something I'm happy with!" she responds with excitement as she picks up one of the flasks filled with a ???-colored liquid. "Here, I spent a good part of this morning fixing this before you came in, and it's finally done!"
+"Yep. The color of the potion is finally turning into something I'm happy with!" she responds with excitement as she picks up one of the flasks filled with a pink-colored liquid. "Here, I spent a good part of this morning fixing this before you came in, and it's finally done!"
 
 "That is... incredible."
 
-You don't really know what to say except with an amazed remark. It's impossible for you to not be in awe by that. After all, it was not that long ago when she confided to you about how it felt like her research had hit an insurmountable wall. And now, in the past few days, her progress bar is ticking up again, all by herself.
+You don't really know what to say except for an amazed remark. It's hard for you to not be in awe by that. After all, it wasn't that long ago when she confided to you about how it felt like her research had hit an insurmountable wall. And now, in the past few days, her progress bar is ticking up again, all by herself.
 
 She really, *really* is a prodigy in a league of her own.
 
-The conversation eventually settles into a temporary lull as Princess Darlyne briefly focuses her attention back onto the potion. While the topic of the conversation hasn't changed yet, you wonder if you should bring up the newspaper you read this morning.
+- @next_research: "So, what is the next step?"
+
+@next_research
+
+"So... what would be the next steps after that, Your Highness?" you ask. Princess Darlyne's expression turns into a thoughtful one as she rests her chin on her hand. 
+
+"Hmm... As far as I remember, it would just be a couple more steps, including the checking for different side effects, and then..."
+
+She continues to list off various stuff as you try to memorize them in your head, hoping to keep them in mind to prepare for similar research cases in the future.
+
+"Oh, I just remembered, I think we're starting to run out of a few ingredients as well." She picks up one of her written notes on the desk. "We'll definitely have to make another trip to the market next week or so." 
+
+You silently take notes inside your head as you nod. It has been more or less three months since you went on a market trip to restock those research ingredients, so another trip is certainly overdue.
+
+Princess Darlyne hands the written note over to you. It's a note filled with a list of ingredients required for research that are either beginning to or already running out in the alchemy shelf. You decide to put the note safely inside your pocket.
+
+The conversation eventually settles into a temporary lull as you see Princess Darlyne briefly focuses her attention onto the papers piling up on her desk. While the topic of the conversation hasn't changed yet, you wonder if you should bring up the newspaper you read this morning.
 
 - @bring_up: Bring it up.
 - @not_bring_up: Avoid the subject.
@@ -70,7 +85,7 @@ Inwardly, you take a deep breath.
 
 "Um... Your Highness?"
 
-The princess, still counting the flasks scattered in front of her, immediately stops as she turns her gaze to you. "Yes?"
+The princess, still visibly pondering over some of the papers in front of her, immediately stops as she turns her gaze to you. "Yes?"
 
 "Have you heard any worrying news recently?" You ask, trying to sound as nonchalant as possible. Inwardly, you hope that she has at least had an idea of the news so you don't have to be the first to tell her about it.
 
@@ -108,7 +123,7 @@ She almost seems to be on the verge of tears. You don't exactly know what to do 
 
 "**Never!**" Princess Darlyne shouts in visible fury as she aggressively stands up from her seat. She looks completely immersed in her rage.
 
-You decide to remain silent in your seat for now, waiting for her to come back to her senses before anything else. 
+You decide to remain silent where you stand for now, waiting for her to come back to her senses before anything else. 
 
 As much as you want to assure her by saying *No, it's nothing but an empty rumour*, you know that this matter is completely out of your hands.
 
@@ -132,9 +147,9 @@ You give a nod, this time with a more sincere smile. "You're always welcome, You
 
 Princess Darlyne replies with a silent nod, visibly pleased with the answer. 
 
-"Now, come on, help me put these flasks back in there." She stands up from her seat with several flasks in hand as she motions you to follow her.
+"Now, come on, help me put these flasks back into the cabinet." She stands up from her seat with several flasks in hand as she motions you to follow her.
 
-You sigh inwardly as you pick up the rest of the flasks on the floor. Time for another errand session it is, then.
+You sigh inwardly as you pick up the rest of the flasks on the desk. Time for another errand session it is, then.
 
 - @next_file: Let's get back to work.
 
@@ -153,24 +168,28 @@ Princess Darlyne replies with a silent nod, visibly pleased with the answer.
 
 "Now, come on, help me put these flasks back in the cabinet." She motions you to follow her with several flasks in hand.
 
-You sigh inwardly as you pick up the rest of the flasks on the floor. Time for another errand session it is, then.
+You sigh inwardly as you pick up the rest of the flasks on the desk. Time for another errand session it is, then.
 
 - @next_file: Let's get back to work.
 
 @not_bring_up
 on-arrival: knowledge_alchemy += 2
 
-"So... what would be the next steps after, Your Highness?" You ask, deciding to break the silence with a more simple question. 
+"By the way, Your Highness, if I may ask... why pink?" You ask, deciding to break the silence with a more simple question.
 
 You still have no idea if it would be worth it to tell her right now, and you might end up giving the newspaper too much attention than what they would've gotten otherwise.
 
-Princess Darlyne's expression turns into a thoughtful one as she rests her chin on her hand. "Hmm... As far as I remember, it would just be a couple more steps, including the checking for side effects, and then..."
+"Hm?" She seems visibly surprised. "What do you mean?"
 
-She continues to list off stuff as you try to memorize them in your head, hoping to keep them in mind to prepare for similar research cases in the future.
+"I was wondering if there are any specific reasons for you to choose pink for this potion's color."
 
-"Oh, that reminds me now," Princess Darlyne suddenly remarks as she stands up from her seat, motioning you to follow her after picking up several flasks in her hand. "Come on, help me put these flasks back in the cabinet. We can continue our discussion about the research afterwards."
+"Oh, that! It's because pink is the color of love!" Princess Darlyne answers enthusiastically as she picks up another paper from the desk. "That was actually one of the reasons why the color pink dominates most of my dresses, you know."
 
-You sigh inwardly as you pick up the rest of the flasks on the floor. Time for another errand session it is, then.
+You hold back a chuckle. Although that is very much in-character of her to do, but her commitment to the cause still surprises you quite a bit.
+
+"Oh right, before I forget," Princess Darlyne suddenly remarks as she stands up from her seat, motioning you to follow her after picking up several flasks in her hand. "Come on, help me put these flasks back in the cabinet. We're not going to use much of these today."
+
+You sigh inwardly as you pick up the rest of the flasks on the desk. Time for another errand session it is, then.
 
 - @next_file: Let's get back to work.
 
