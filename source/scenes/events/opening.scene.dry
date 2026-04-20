@@ -57,7 +57,6 @@ Even after interacting so many times, she remains in your eyes as nothing short 
 
 @intro_news
 title: And then...
-max-visits: 1
 view-if: intro_myself_seen = 1 and intro_job_seen = 1 and intro_darlyne_seen = 1
 
 Before you realize it, the sun is already well and above the horizon, and the sky has already turned a rather bright blue.
