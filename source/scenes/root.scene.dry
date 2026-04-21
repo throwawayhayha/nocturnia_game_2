@@ -15,13 +15,12 @@ This is a short story from another world. The story of a trial that shook the en
 @menu_start
 
 - @start: Start
-- @library: Library
 - @credits: Credits
 - @disclaim: Disclaimer
 
 @start
 new-page: true
-#on-arrival: relation_king = 5; relation_darlyne = 5; relation_nobility = 0; relation_judiciary = 2; relation_police = 1; relation_alchemy_center = 10; knowledge_law = 10; knowledge_alchemy = 15; knowledge_politics = 7
+on-arrival: relation_king = 5; relation_darlyne = 5; relation_nobility = 0; relation_judiciary = 2; relation_police = 1; relation_alchemy_center = 10; knowledge_law = 10; knowledge_alchemy = 15; knowledge_politics = 7
 go-to: opening
 
 @disclaim
