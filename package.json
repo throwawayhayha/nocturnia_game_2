@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "dendry": "github:aucchen/dendry"
+    "dendrynexus": "github:aucchen/dendrynexus"
   },
   "name": "dendry-game",
   "description": "This is a starter pack for [Dendry](https://github.com/aucchen/dendry) games. It includes a basic game structure.",
   "version": "1.0.0",
   "main": "out/html/index.html",
   "scripts": {
-    "dendry": "dendry"
+    "dendrynexus": "dendrynexus"
   },
   "keywords": [
     "dendry",
