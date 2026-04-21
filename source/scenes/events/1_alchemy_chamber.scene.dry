@@ -12,35 +12,37 @@ As you look around the room for a bit, you notice so many scattered flasks aroun
 
 Another thing you notice is the fact that Princess Darlyne herself is nowhere to be found inside.
 
-As soon as that thought crosses your mind, however, you hear a rather familiar voice from behind.
+That particular thought does not last long, however, as you hear a rather familiar voice from behind you.
 
-"Oh, ----!" Princess Darlyne greets, and you notice her carrying several empty flasks in her hand. "You're quite early today. That's surprising."
+"Oh, morning, ----! You're quite early today. That's surprising."
+
+You turn your head towards the direction of the voice. There stands Princess Darlyne in her usual attire: a sleeveless brown dress and a pink ribbon on her chest.
 
 - @what_that_mean: "What is that supposed to mean?"
-- @what_you_doing: "What were you doing?"
 
 @what_that_mean
 
-"Greetings, Your Highness," you reply with a light bow. "And what is that last part supposed to mean?"
+"Greetings, Your Highness," you greet with a light bow. "And what is that last part supposed to mean?"
 
-Princess Darlyne grins teasingly. "Nope, it's nothing you have to be worried about."
+Princess Darlyne grins teasingly as she sits on the table across where you stand. "Nope, it's nothing you have to be worried about."
 
-You let out a flat unconvinced stare, but she doesn't give another reply back. You could only sigh inwardly at that.
+You let out a flat unconvinced stare, but she merely keeps her silent grin as a reply. You could only sigh inwardly as you lightly shake your head. "...Never mind, then."
 
-The conversation eventually settles into a temporary lull as Princess Darlyne tidies up the various flasks scattered around the chamber. Privately, you wonder if should bring up the newspaper you read this morning.
+- @why_flasks: "What are all those flasks for?"
 
-- @bring_up: Bring it up.
-- @not_bring_up: Avoid the subject.
+@why_flasks
 
-@what_you_doing
+"By the way... what are all those scattered flasks for?" you ask. Though the floor of the alchemy chamber has been witnesses to messier scenes, it's still not that often that you see so many of those in one place, after all.
 
-"Greetings, Your Highness," you reply with a light bow. "What were you doing this early by yourself?"
+"Hehe... Remember those potions I'm currently researching?" Princess Darlyne giggles as she answers cheerfully, "I've managed to make a few of them work!"
 
-"Hehe... Remember those potions I'm currently researching?" Princess Darlyne gives a wide smile. It is arguably the widest you've ever seen her smile. "I've managed to make a few of them work!"
+You could hardly contain your surprise. "Wow... You've managed to make the potion work?"
 
-(. . .)
+"Yep!" Princess Darlyne nods vigorously, although her expression subtly morphs into a more thoughtful one. "Actually, it's not exactly final yet, but the colour of the potion is already turning into something I'm quite happy with. Hmm... Maybe I should..."
 
-The conversation eventually settles into a temporary lull as Princess Darlyne tidies up the various flasks scattered around the chamber. Privately, you wonder if should bring up the newspaper you read this morning.
+She trails off at the end, leaving you to wonder about what she was trying to say. However, you decide not to think too deeply into it. She would probably tell you what it is later anyway, at least if it turns out to be something important.
+
+The conversation eventually settles into a temporary lull as Princess Darlyne focuses her attention towards the various flasks scattered around the chamber. Privately, you wonder if should bring up the newspaper you read this morning.
 
 @bring_up
 on-arrival: brought_up += 1;
@@ -139,23 +141,19 @@ You sigh inwardly as you pick up the rest of the flasks on the floor. Time for a
 @not_bring_up
 on-arrival: knowledge_alchemy += 2
 
-"...How far have your progress been so far with that, Your Highness?" You ask, deciding to break the silence with a simple question. 
+"By the way, Your Highness, if I may ask... why pink?" You ask, deciding to break the silence with a more simple question.
 
 You still have no idea if it would be worth it to tell her right now, and you might end up giving the newspaper too much attention than what they would've gotten otherwise.
 
-"Oh, I've just finished one of the later steps in my research!" Princess Darlyne replies with a radiant expression on her face. 
+"Hm?" She seems visibly surprised. "What do you mean?"
 
-"That is... wow." You let out an amazed remark. It was not that long ago when she confided to you about how it felt like her research had hit an insurmountable wall. And now, in the past few days, her progress bar is ticking up again, all by herself.
+"I was wondering if there are any specific reasons for you to choose pink for this potion's color."
 
-She really, *really* is a prodigy in a league of her own.
+"Oh, that! It's because pink is the color of love!" Princess Darlyne answers enthusiastically as she points to the ribbon on her chest. "That was actually one of the reasons why the color pink dominates most of my dresses, you know."
 
-"Exactly!" Princess Darlyne continues with a wide grin. "The potions are already turning into a color I'm happy with, so I'll count that as a progress on my part." 
+You hold back a chuckle. Although that is very much in-character of her to do, but her commitment to the cause still surprises you quite a bit.
 
-You couldn't help but be amused at the overjoyed expression on her face. She is supposed to be the quiet, introverted Princess of Nocturnia, after all. And yet, right now, she is anything but.
-
-It's a privilege that probably nobody other than the Royal Family and the royal maids have ever gotten. Somehow, you feel a good amount of pride in yourself swell once again.
-
-"That reminds me now," Princess Darlyne remarks as she stands up from her seat, motioning you to follow her with several flasks in her hand. "Come on, help me put these flasks back in there!"
+"oh right, before I forget," Princess Darlyne remarks as she stands up from her seat, motioning you to follow her with several flasks in her hand. "Come on, help me put these flasks back in the cabinet. We're not going to use much of these today."
 
 You sigh inwardly as you pick up the rest of the flasks on the floor. Time for another errand session it is, then.
 
