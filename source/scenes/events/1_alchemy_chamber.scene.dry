@@ -44,6 +44,9 @@ She trails off at the end, leaving you to wonder about what she was trying to sa
 
 The conversation eventually settles into a temporary lull as Princess Darlyne focuses her attention towards the various flasks scattered around the chamber. Privately, you wonder if should bring up the newspaper you read this morning.
 
+- @bring_up: Bring it up.
+- @not_bring_up: Avoid the subject.
+
 @bring_up
 on-arrival: brought_up += 1;
 
