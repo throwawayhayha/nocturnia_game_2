@@ -20,5 +20,25 @@ What is to be done?
 - @what_nex: What next?
 
 @what_nex
+on-display: {!  
+    var cardEl = document.createElement('div');  
+    cardEl.className = "face-figure2";  
+
+    var image = new Image();  
+    image.className = "face-img";  
+    image.src = "img/wbmap.jpg";  
+
+    cardEl.appendChild(image);  
+    var contentDiv = document.querySelector("#page #mid_panel #content");
+    contentDiv.appendChild(cardEl);
+!}
 
 What next, then?
+
+Test test one two threeeeeeeee
+
+- @cont: contninue
+
+@cont
+
+contnitnure
