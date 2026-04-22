@@ -23,6 +23,7 @@ Taking a glance at the clock, you notice that there is still quite some time lef
 - @job: Your assigned tasks.
 - @darlyne: The princess herself.
 - @intro_news
+- @test_page
 
 @myself
 max-visits: 1
@@ -67,3 +68,7 @@ You quickly finish up your preparation before heading towards the door. Everythi
 
 @next_file
 go-to:newspaper
+
+@test_page
+title: test test
+go-to: test_trial_page
