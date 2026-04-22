@@ -22,6 +22,7 @@ Normally, it's already time to get to work. Or research, whichever you would wan
 - @room_3: Head straight to the Princess' office.
 
 @room_1
+view-if: brought_up > 0
 go-to: 2_library_room
 
 

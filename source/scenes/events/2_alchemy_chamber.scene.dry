@@ -1,11 +1,14 @@
 title: Alchemy chamber scene #2
 new-page: true
 tags: events
+go-to: if_brought_up if brought_up = 1; not_brought if brought_up = 0
+
+## --- Event for when you didn't bring up the newspaper at all
+
+@not_brought
 
 
 
-- @next_scene: test ts the same as the page before
+## --- Event for when you did bring up the newspaper
 
-@next_scene
-
-does this work
+@if_brought_up
