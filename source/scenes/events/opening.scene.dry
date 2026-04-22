@@ -66,9 +66,9 @@ You quickly finish up your preparation before heading towards the door. Everythi
 
 - @next_file: It's time to head out.
 
-@next_file
-go-to:newspaper
-
 @test_page
 title: test test
 go-to: test_trial_page
+
+@next_file
+go-to:newspaper
