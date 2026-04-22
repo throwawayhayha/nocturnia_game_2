@@ -68,7 +68,7 @@ You quickly finish up your preparation before heading towards the door. Everythi
 
 @test_page
 title: test test
-go-to: test_trial_page
+go-to: unusedtest_trial_page
 
 @next_file
 go-to:newspaper
