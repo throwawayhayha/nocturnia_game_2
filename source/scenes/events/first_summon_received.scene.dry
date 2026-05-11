@@ -1,0 +1,47 @@
+title: You are summoned by the King
+new-page: true
+tags: events
+
+## News arrived that the King officially summons you
+## Unfinished
+
+- @meet_1: A summoning decree has arrived.
+
+@meet_1
+subtitle: From none other than the King of Nocturnia himself.
+
+It obviously does not take long for the news to spread far and wide. With the newspaper's extensive publication network, the ground-breaking headline is sure to take the attention of many people, inside and even outside the kingdom.
+
+And so it doesn't surprise you when one of the King's butlers soon approaches you and Princess Darlyne together to inform that the King of Nocturnia wants to summon both of you this afternoon.
+
+"Salutations, Your Highness, Sir ----," the butler greets as he gives a deep bow. "I am here to inform both of you that the King demands both of you to be in his presence as soon as possible." 
+
+- @what_for: "What for, if we may know?"
+- @alright: "Alright, we understand."
+
+@what_for
+
+"What for, if we may know?" you ask first. Though you could easily deduce the reason behind the King's summoning, it's often better to just confirm it straight away.
+
+"For..." the butler hesitates for a bit, and his gaze briefly shifts away from you. "...For issues that have risen up in relation to the Princess' activity recently."
+
+You lift your eyebrows slightly. That is a much vaguer answer than you had expected.
+
+"I apologize if that is not clear," the butler immediately replies with a curt nod, as if he could see what you were thinking about before. "But that is all that we could disclose for now."
+
+You briefly share a glance with Princess Darlyne. She looks composed enough from the outside, but for you who have seen her so many times, you could notice her slightly trembling hand and shaken expression.
+
+- @alright: "Alright, we understand."
+
+@alright
+
+"Alright, we understand." You share another glance with Princess Darlyne. "Let us go, Your Highness."
+
+Princess Darlyne, her eyes looking more determined than ever, gives an assured nod.
+
+As you bid a respectful nod to the butler, Princess Darlyne walks ahead, with you not far behind.
+
+- @time_to_go: It's time to go.
+
+@time_to_go
+go-to: first_summon_received_2

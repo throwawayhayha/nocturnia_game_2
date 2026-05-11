@@ -1,0 +1,23 @@
+title: You are summoned by the King #2
+new-page: true
+tags: events
+
+## You and Darlyne decides to meet with the Royal Family
+## Unfinished
+
+- @king_meet: The King of Nocturnia is inside.
+
+@meet_1
+subtitle: You wonder what awaits behind the majestic door.
+new-page: true
+
+sdss
+
+
+
+
+
+- @time_to_go: It's time to go.
+
+@time_to_go
+go-to: first_summon_received_2
