@@ -7,6 +7,7 @@ tags: events
 @hurry
 title: You need to hurry up.
 subtitle: Unlike any workday you've ever experienced before.
+new-page: true
 go-to: option
 
 You have finally arrived at the front gate of the palace. The guards, already familiar with your face by now, greet with a polite bow as they open the gates for you.

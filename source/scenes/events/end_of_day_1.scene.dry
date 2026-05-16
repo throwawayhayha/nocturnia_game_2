@@ -6,6 +6,7 @@ tags: events
 
 @option_intro_1
 subtitle: ...and another one begins anew.
+new-page: true
 
 = Another early morning
 

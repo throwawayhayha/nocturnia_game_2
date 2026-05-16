@@ -3,12 +3,13 @@ new-page: true
 tags: events
 
 ## News arrived that the King officially summons you
-## Unfinished
+## Finished, but needs further polishing
 
 - @meet_1: A summoning decree has arrived.
 
 @meet_1
 subtitle: From none other than the King of Nocturnia himself.
+new-page: true
 
 It obviously does not take long for the news to spread far and wide. With the newspaper's extensive publication network, the ground-breaking headline is sure to take the attention of many people, inside and even outside the kingdom.
 
@@ -21,7 +22,7 @@ And so it doesn't surprise you when one of the King's butlers soon approaches yo
 
 @what_for
 
-"What for, if we may know?" you ask first. Though you could easily deduce the reason behind the King's summoning, it's often better to just confirm it straight away.
+"What for, if we may know?" you ask first. You could quite easily deduce the reason behind the King's summoning, but it's often better to just confirm it straight away.
 
 "For..." the butler hesitates for a bit, and his gaze briefly shifts away from you. "...For issues that have risen up in relation to the Princess' activity recently."
 
@@ -37,7 +38,7 @@ You briefly share a glance with Princess Darlyne. She looks composed enough from
 
 "Alright, we understand." You share another glance with Princess Darlyne. "Let us go, Your Highness."
 
-Princess Darlyne, her eyes looking more determined than ever, gives an assured nod.
+Princess Darlyne gives an assured nod. Though you could see that she was anxious before, her eyes are now looking more determined than ever.
 
 As you bid a respectful nod to the butler, Princess Darlyne walks ahead, with you not far behind.
 
