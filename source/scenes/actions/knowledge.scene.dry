@@ -1,0 +1,53 @@
+title: Building up knowledge
+new-page: true
+on-arrival: action_time += 1
+max-visits: 14
+is-card: true
+# card-image: img/flags.jpg
+frequency: 100
+tags: card_actions
+
+= Building up knowledge
+
+(blablabla ... opening line). Which subject should we focus our efforts on for now?
+
+- @politics_know: The inner politics of Nocturnia's nobility.
+- @law_know: The laws and regulations in Nocturnia.
+- @alchemy_know: The knowledge of alchemy.
+- @return: We can work with what we have now.
+
+@politics_know
+subtitle: Perhaps we could gain some insight to how their inner minds work?
+choose-if: knowledge_politics <= 18
+unavailable-subtitle: You have mastered this subject.
+on-arrival: knowledge_politics += 2; knowledge_alchemy -= 1; knowledge_law -=1; relation_nobility += 3; relation_king += 1; relation_darlyne -= 2;
+go-to: return_2
+
+We have increased our knowledge about the internal politics of Nocturnia. 
+
+@law_know
+subtitle: Perhaps understanding the law could give an edge to our cause?
+choose-if: knowledge_law <= 18
+unavailable-subtitle: You have mastered this subject.
+on-arrival: knowledge_law += 2; knowledge_alchemy -= 1; knowledge_politics -=1; relation_judiciary += 3; relation_nobility -= 2;
+go-to: return_2
+
+We have increased our knowledge about the laws and regulations in Nocturnia. 
+
+@alchemy_know
+subtitle: Perhaps our mastery in alchemy could prove helpful in our defense?
+choose-if: knowledge_alchemy <= 18
+unavailable-subtitle: You have mastered this subject.
+on-arrival: knowledge_alchemy += 2; knowledge_law -= 1; knowledge_politics -=1; relation_alchemy_center += 3; relation_darlyne += 2;
+go-to: return_2
+
+We have increased our knowledge and expertise in alchemy.
+
+@return
+
+We can still work with what we have right now. Perhaps our efforts would be better placed elsewhere.
+
+- @return_2: Continue...
+
+@return_2
+go-to: main_trial
