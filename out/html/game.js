@@ -293,11 +293,25 @@
     }
   };
 
+  window.onDisplayContent = function() {
+      window.updateSidebar();
+  };
+  
+  window.justLoaded = true;
+  window.statusTab = "status";
   window.dendryModifyUI = main;
   console.log("Modifying stats: see dendryUI.dendryEngine.state.qualities");
 
   window.onload = function() {
-    window.dendryUI.loadSettings();
+    window.dendryUI.loadSettings({show_portraits: true});
+    if (window.dendryUI.dark_mode) {
+        document.body.classList.add('dark-mode');
+    }
+    if (window.dendryUI.gray_mode) {
+        document.body.classList.add('gray-mode');
+    }
+    window.statusTab = "status";
+    window.updateSidebar();
   };
 
 }());
