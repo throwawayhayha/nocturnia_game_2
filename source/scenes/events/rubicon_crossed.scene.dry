@@ -24,15 +24,15 @@ toolsElements.forEach(tool => {
         tool.style.padding = '0.6em';
         tool.style.width = '';
         tool.style.color = '#FFFFFF';
-        tool.style.backgroundColor = '#c4c19f';
-        tool.style.boxShadow = '4px 4px 16px rgba(255, 255, 255, 0.4)';
+        tool.style.backgroundColor = '#98677e';
+        tool.style.boxShadow = '4px 4px 16px #c4c19f';
     } else {
         tool.style.marginLeft = '-6em';
         tool.style.padding = '0.6em';
         tool.style.width = '20rem';
         tool.style.color = '#FFFFFF';
-        tool.style.backgroundColor = '#c4c19f';
-        tool.style.boxShadow = '4px 4px 16px rgba(255, 255, 255, 0.4)';
+        tool.style.backgroundColor = '#98677e';
+        tool.style.boxShadow = '4px 4px 16px #c4c19f';
     }
 });
 
