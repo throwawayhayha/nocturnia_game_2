@@ -80,6 +80,9 @@ if (leftTools) {
     leftTools.style.display = 'block';
 }
 
+const mainTab = document.getElementById('main_tab');
+mainTab.style.width = '100%';
+
 window.changeTab('status', 'main_tab')
 
 dendryUI.audioPlaylist = []
