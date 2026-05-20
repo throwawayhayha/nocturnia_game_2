@@ -66,7 +66,7 @@ if (leftTools) {
     leftTools.style.display = 'block';
 }
 
-dendryUI.audioPlaylist = [];
+dendryUI.audioPlaylist = []
 
 !}
 go-to: rubicon_crossing
