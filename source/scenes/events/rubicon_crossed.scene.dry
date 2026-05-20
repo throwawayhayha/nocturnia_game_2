@@ -15,6 +15,8 @@ const header = document.querySelector('header');
 header.style.color = '#28c4e7';
 contentElement.style.color = '#FFFFFF';
 
+const choiceElements = document.querySelectorAll('.)
+
 const isMobile = window.innerWidth <= 768;
 const toolsElements = document.querySelectorAll('.tools');
 
@@ -39,6 +41,11 @@ toolsElements.forEach(tool => {
 const mainTab = document.getElementById('main_tab');
 mainTab.style.width = '100%';
 
+const ulchoices = document.querySelectorAll('ul');
+if (ulchoices) {
+    ulchoices.style.color = 'white';
+}
+
 const qualitiesH1 = document.querySelector('#qualities h1');
 if (qualitiesH1) {
     qualitiesH1.style.color = 'white';
@@ -46,38 +53,12 @@ if (qualitiesH1) {
 
 const tabContainer = document.querySelector('.tab_container');
 if (tabContainer) {
-    tabContainer.style.backgroundColor = '#d39bbc';
+    tabContainer.style.backgroundColor = '#d59dbe';
 }
 
 const headerLinks = document.querySelectorAll('#header-links a');
 headerLinks.forEach(link => {
     link.style.color = 'black';
-});
-
-const tabButtons = document.querySelectorAll('.tab_button');
-tabButtons.forEach((button) => {
-    button.style.backgroundColor = '#c3b8a0';
-    if (button.id == 'main_tab') {
-        button.style.marginLeft = '2px';
-    }
-});
-
-const activeTabButton = document.querySelector('.tab_button.active');
-if (activeTabButton) {
-    activeTabButton.style.backgroundColor = '#f3f3f3';
-}
-
-tabButtons.forEach(button => {
-    const computedStyle = window.getComputedStyle(button);
-    const originalBackground = computedStyle.backgroundColor;
-    button.addEventListener('mouseenter', () => {
-        button.style.backgroundColor = '#a89f8b';
-    });
-    button.addEventListener('mouseleave', () => {
-        if (!button.classList.contains('active')) {
-            button.style.backgroundColor = originalBackground;
-        }
-    });
 });
 
 const leftTools = document.querySelector('.tools.left');
