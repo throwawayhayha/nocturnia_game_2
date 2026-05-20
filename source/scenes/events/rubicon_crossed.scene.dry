@@ -45,8 +45,6 @@ const statusTab = document.getElementById('main_tab');
 statusTab.style.display = 'block';
 statusTab.style.width = '100%';
 
-window.changeTab('status', 'main_tab')
-
 const headerLinks = document.querySelectorAll('#header-links a');
 headerLinks.forEach(link => {
     link.style.color = 'black';
@@ -80,6 +78,8 @@ tabButtons.forEach(button => {
         }
     });
 });
+
+window.changeTab('status', 'main_tab')
 
 dendryUI.audioPlaylist = []
 
