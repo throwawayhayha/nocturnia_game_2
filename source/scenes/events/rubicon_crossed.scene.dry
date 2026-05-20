@@ -71,10 +71,9 @@ window.changeTab('status.status_tab', 'status_tab')
 dendryUI.audioPlaylist = []
 
 !}
-
+go-to: rubicon_crossing
 # set-bg: img/street.jpg
 # audio: music/1930_1933/Backroom_Deal.ogg
-go-to: rubicon_crossing
 
 = The Trial of The Century begins
 
@@ -89,8 +88,9 @@ Whatever path Hindenburg takes now will be chosen not by the people, but by thos
 Time slows. We enter the day-by-day struggle.
 
 @rubicon_crossing
-# audio: shuffle (music path in github)
 go-to: rubicon_crossing_2
+# audio: shuffle (music path in github)
+
 
 @rubicon_crossing_2
 on-arrival: {!
