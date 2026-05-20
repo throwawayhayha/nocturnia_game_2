@@ -2,6 +2,7 @@ title: Status
 new-page: true
 is-special: true
 
+
 = Trial Strength
 
 Defense Counsel strength: [+ defense : defense_strength +]
@@ -11,7 +12,7 @@ Prosecution strength: [+ prosecution : prosecution_strength +]
 
 = Relationship
 
-[? if guilty = 0 : **Princess' status:** ?] [? if guilty = 1 : **Former Princess' status: ?]
+[? if not guilty : **Princess' status:** ?] [? if guilty : **Former Princess' status: ?]
 
 Darlyne Nightbloom: [+ relation_darlyne : darlyne_relation +]
 

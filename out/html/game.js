@@ -281,7 +281,7 @@
       $('#qualities').append(dendryUI.contentToHTML.convert(displayContent));
   };
   
-  window.changeTab = function(newTab, tabId, isRight) {
+  window.changeTab = function(newTab, tabId) {
       var tabButton = document.getElementById(tabId);
       var tabButtons = document.getElementsByClassName('tab_button');
       for (i = 0; i < tabButtons.length; i++) {
