@@ -273,6 +273,25 @@
     }
   };
 
+  window.updateSidebar = function() {
+      $('#qualities').empty();
+      var scene = dendryUI.game.scenes[window.statusTab];
+      dendryUI.dendryEngine._runActions(scene.onArrival);
+      var displayContent = dendryUI.dendryEngine._makeDisplayContent(scene.content, true);
+      $('#qualities').append(dendryUI.contentToHTML.convert(displayContent));
+  };
+  
+  window.changeTab = function(newTab, tabId, isRight) {
+      var tabButton = document.getElementById(tabId);
+      var tabButtons = document.getElementsByClassName('tab_button');
+      for (i = 0; i < tabButtons.length; i++) {
+        tabButtons[i].className = tabButtons[i].className.replace(' active', '');
+      }
+      tabButton.className += ' active';
+      window.statusTab = newTab;
+      window.updateSidebar();
+    }
+  };
 
   window.dendryModifyUI = main;
   console.log("Modifying stats: see dendryUI.dendryEngine.state.qualities");
