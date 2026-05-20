@@ -41,9 +41,11 @@ if (qualitiesH1) {
     qualitiesH1.style.color = 'white';
 }
 
-// const statusTab = document.getElementById('main_tab');
-// statusTab.style.display = '';
-// statusTab.style.width = '100%';
+const statusTab = document.getElementById('main_tab');
+statusTab.style.display = 'block';
+statusTab.style.width = '100%';
+
+window.changeTab('status', 'main_tab')
 
 const headerLinks = document.querySelectorAll('#header-links a');
 headerLinks.forEach(link => {
