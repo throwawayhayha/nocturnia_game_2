@@ -22,18 +22,18 @@ This is a short story from another world. The story of a trial that shook the en
 @start
 new-page: true
 on-arrival: {!
-started = 1;
+Q.started = 1;
 
-darlyne_mood = 3;
-relation_darlyne = 5; 
-relation_king = 5; 
-relation_nobility = 0; 
-relation_judiciary = 2; 
-relation_alchemy_center = 10; 
+Q.darlyne_mood = 3;
+Q.relation_darlyne = 5; 
+Q.relation_king = 5; 
+Q.relation_nobility = 0; 
+Q.relation_judiciary = 2; 
+Q.relation_alchemy_center = 10; 
 
-knowledge_law = 10; 
-knowledge_alchemy = 15; 
-knowledge_politics = 7;
+Q.knowledge_law = 10; 
+Q.knowledge_alchemy = 15; 
+Q.knowledge_politics = 7;
 !}
 go-to: opening
 

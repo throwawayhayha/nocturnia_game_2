@@ -41,9 +41,9 @@ if (qualitiesH1) {
     qualitiesH1.style.color = 'white';
 }
 
-const statusTab = document.getElementById('main_tab');
-statusTab.style.display = '';
-statusTab.style.width = '100%';
+// const statusTab = document.getElementById('main_tab');
+// statusTab.style.display = '';
+// statusTab.style.width = '100%';
 
 const headerLinks = document.querySelectorAll('#header-links a');
 headerLinks.forEach(link => {
@@ -58,15 +58,7 @@ if (tabContainer) {
 const tabButtons = document.querySelectorAll('.tab_button');
 tabButtons.forEach((button) => {
     button.style.backgroundColor = '#c3b8a0';
-    if (button.id !== 'emergency_tab') {
-        button.style.paddingRight = '59px';
-    }
-    if (button.id == 'main_tab') {
-        button.style.marginLeft = '2px';
-    }
-    if (button.id == 'poll_tab') {
-        button.style.display = 'none';
-    }
+    button.style.marginLeft = '2px';
 });
 
 const activeTabButton = document.querySelector('.tab_button.active');
