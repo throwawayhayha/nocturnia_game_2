@@ -30,7 +30,7 @@ go-to: eg_menu
 
 @darlyne_life_prison
 title: Darlyne Nightbloom is imprisoned for life.
-33view-if: sentence_life == 1
+## view-if: sentence_life == 1
 tags: endings
 go-to: eg_menu
 
