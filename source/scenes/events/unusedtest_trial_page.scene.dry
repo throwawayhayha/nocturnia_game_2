@@ -11,9 +11,9 @@ subtitle: The hour of judgement has finally arrived.
 
 Princess Darlyne is officially found guilty on all accusations! The trial is completely out of her hands now.
 
-<div class="face-figure2">
-  <img src="img/dadar_3.png" class="face-img">
-</div>
+// This one works!
+
+<div class="face-figure2"><img src="img/dadar_3.png" class="face-img"></div>
 
 What is to be done?
 
@@ -32,6 +32,8 @@ on-display: {!
     var contentDiv = document.querySelector("#page #mid_panel #content");
     contentDiv.appendChild(cardEl);
 !}
+
+// For some reason, the above one doesn't here.
 
 What next, then?
 

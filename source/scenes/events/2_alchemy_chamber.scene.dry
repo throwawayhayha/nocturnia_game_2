@@ -3,12 +3,13 @@ new-page: true
 tags: events
 go-to: if_brought_up if brought_up = 1; not_brought if brought_up = 0
 
-## --- Event for when you didn't bring up the newspaper at all
+## Event for when you didn't bring up the newspaper at all
+## Unfinished
 
 @not_brought
 
 
 
-## --- Event for when you did bring up the newspaper
+## Event for when you did bring up the newspaper
 
 @if_brought_up

@@ -1,0 +1,97 @@
+title: Game Over.
+new-page: true
+go-to: eg_menu
+on-arrival: {! game_over = 1; this.achieve('game_completed'); !}
+
+## Unfinished; must only be done at the very end.
+
+@eg_menu
+
+- #endings
+- @end_game: End game.
+
+##------ Darlyne's fate ------##
+
+@darlyne_survive
+title: Princess Darlyne lives on in Nocturnia!
+##view-if: verdict_win == 1
+tags: endings
+go-to: eg_menu
+
+(Princess Darlyne survives the trial and the verdict declares her not guilty.)
+
+@darlyne_exile
+title: Darlyne Nightbloom lives on in exile.
+##view-if: sentence_exile == 1
+tags: endings
+go-to: eg_menu
+
+(Princess Darlyne loses the trial and the verdict declares her guilty, and her sentence is exile from Nocturnia.)
+
+@darlyne_life_prison
+title: Darlyne Nightbloom is imprisoned for life.
+33view-if: sentence_life == 1
+tags: endings
+go-to: eg_menu
+
+(Princess Darlyne loses the trial and the verdict declares her guilty, and her sentence is life imprisonment)
+
+
+##------ Your fate ------##
+
+@you_win
+title: You have survived together with the Princess!
+##view-if: relation
+tags: endings
+go-to: eg_menu
+
+(Princess Darlyne wins the trial and you basically continue your life unscathed.)
+
+@you_survive
+title: You have survived, somehow.
+##view-if:
+tags: endings
+go-to: eg_menu
+
+(You still survive despite Princess Darlyne losing the trial, without losing much wealth; just minor reputational loss.)
+
+@you_demoted
+title: You have survived... but at what cost?
+##view-if:
+tags: endings
+go-to: eg_menu
+
+(You survive despite Princess Darlyne losing the trial, but you basically lost almost everything else due to your association with Darlyne.)
+
+@you_exile
+title: You have joined Darlyne Nightbloom together in her exile.
+##view-if:
+tags: endings
+go-to: eg_menu
+
+(Out of pure loyalty, you decide to join with Princess Darlyne in exile.)
+
+
+##------ Nocturnia's fate ------##
+
+@nocturnia_stable
+title: The Kingdom of Nocturnia stands strong.
+##view-if: 
+tags: endings
+go-to: eg_menu
+
+(Princess Darlyne wins the trial and life continues as normal in Nocturnian politics.)
+
+@nocturnia_waiting
+title: The Kingdom of Nocturnia awaits its upcoming fate.
+##view-if:
+tags: endings
+go-to: eg_menu
+
+(Princess Darlyne loses the trial and the Kingdom now has to deal with the loss of the only heiress-apparent it had before.)
+
+
+##----- End game -------##
+
+@end_game
+game-over: true
