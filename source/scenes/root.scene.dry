@@ -33,6 +33,9 @@ Q.relation_alchemy_center = 10;
 Q.knowledge_law = 10; 
 Q.knowledge_alchemy = 15; 
 Q.knowledge_politics = 7;
+
+Q.action_time = 0;
+Q.day = 0;
 !}
 go-to: opening
 
