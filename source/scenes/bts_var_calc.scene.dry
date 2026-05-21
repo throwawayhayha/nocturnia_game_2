@@ -3,8 +3,8 @@ new-page: true
 on-arrival: {!
 
 // 1. update dates
-if (action_timer >= 2) {
-    day += 1;
+if (Q.action_timer >= 2) {
+    Q.day += 1;
 }
 
 has_event = 0;
