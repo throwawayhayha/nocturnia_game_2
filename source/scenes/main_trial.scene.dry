@@ -1,9 +1,9 @@
 title: Next actions
 # set-bg: img/map_2.jpg
 is-hand: true
-max-cards: 1
+max-cards: 2
 
-= [? if day <= 0 : Before the Trial ?] [? if day > 0 : Day [+ day +] ?]
+= [? if day == 0 : Before the Trial ?] [? if day != 0 : Day [+ day +] ?]
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
