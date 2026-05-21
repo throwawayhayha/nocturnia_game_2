@@ -5,7 +5,6 @@ subtitle: The fate of Nocturnia rests in their hands.
 new-page: true
 tags: events
 max-visits: 1
-
 on-arrival: {!
 action_time = 0;
 
