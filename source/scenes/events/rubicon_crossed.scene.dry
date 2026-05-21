@@ -47,6 +47,11 @@ if (qualitiesH1) {
     qualitiesH1.style.color = 'white';
 }
 
+const choiceElements = document.querySelectorAll('.choices');
+choiceElements.forEach(element => {
+    element.style.color = 'rgb(224,224,224)';
+});
+
 const tabContainer = document.querySelector('.tab_container');
 if (tabContainer) {
     tabContainer.style.backgroundColor = '#d59dbe';
