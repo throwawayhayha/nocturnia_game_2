@@ -138,14 +138,6 @@ p {
   text-indent: 1em;
 }
 
-p.dnvp {
-  display: none;
-}
-
-p.other {
-  display: block;
-}
-
 .scrollable-box {
   width: 540px;
   /* Default width */
