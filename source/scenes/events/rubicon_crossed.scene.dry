@@ -5,6 +5,71 @@ subtitle: The fate of Nocturnia rests in their hands.
 new-page: true
 tags: events
 max-visits: 1
+
+on-arrival: {!
+action_time = 0;
+
+const contentElement = document.getElementById('content');
+contentElement.style.backgroundColor = '#98677e';
+
+const header = document.querySelector('header');
+header.style.color = '#28c4e7';
+contentElement.style.color = '#FFFFFF';
+
+const isMobile = window.innerWidth <= 768;
+const toolsElements = document.querySelectorAll('.tools');
+
+toolsElements.forEach(tool => {
+    if (isMobile) {
+        tool.style.marginLeft = '';
+        tool.style.padding = '0.6em';
+        tool.style.width = '';
+        tool.style.color = '#FFFFFF';
+        tool.style.backgroundColor = '#98677e';
+        tool.style.boxShadow = '4px 4px 16px #c4c19f';
+    } else {
+        tool.style.marginLeft = '-6em';
+        tool.style.padding = '0.6em';
+        tool.style.width = '20rem';
+        tool.style.color = '#FFFFFF';
+        tool.style.backgroundColor = '#98677e';
+        tool.style.boxShadow = '4px 4px 16px #c4c19f';
+    }
+});
+
+const mainTab = document.getElementById('main_tab');
+mainTab.style.width = '100%';
+
+const ulchoices = document.querySelectorAll('ul');
+ulchoices.forEach(choice => {
+        ulchoices.style.color = 'white';
+})
+
+const qualitiesH1 = document.querySelector('#qualities h1');
+if (qualitiesH1) {
+    qualitiesH1.style.color = 'white';
+}
+
+const tabContainer = document.querySelector('.tab_container');
+if (tabContainer) {
+    tabContainer.style.backgroundColor = '#d59dbe';
+}
+
+const headerLinks = document.querySelectorAll('#header-links a');
+headerLinks.forEach(link => {
+    link.style.color = 'black';
+});
+
+const leftTools = document.querySelector('.tools.left');
+if (leftTools) {
+    leftTools.style.display = 'block';
+}
+
+window.changeTab('status', 'main_tab')
+
+dendryUI.audioPlaylist = []
+
+!}
 go-to: rubicon_crossing
 ## set-bg: img/street.jpg
 # audio: music/1930_1933/Backroom_Deal.ogg
