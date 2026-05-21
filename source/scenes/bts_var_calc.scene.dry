@@ -4,9 +4,7 @@ on-arrival: {!
 
 // 1. update dates
 if (action_time >= 2) {
-    day += 1;
-
-    // other stuff ig
+    Q.day += 1;
 }
 
 has_event = 0;
