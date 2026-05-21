@@ -39,6 +39,10 @@ toolsElements.forEach(tool => {
 const mainTab = document.getElementById('main_tab');
 mainTab.style.width = '100%';
 
+const choiceElements = document.querySelectorAll('.ul');
+toolsElements.forEach(tool => {
+    tool.style.color = 'white';
+});
 const qualitiesH1 = document.querySelector('#qualities h1');
 if (qualitiesH1) {
     qualitiesH1.style.color = 'white';
@@ -68,7 +72,7 @@ go-to: rubicon_crossing
 ## set-bg: img/street.jpg
 # audio: music/1930_1933/Backroom_Deal.ogg
 
-= The Trial of The Century begins
+= *The Trial of The Century begins*
 
 (blablabla text) 
 
